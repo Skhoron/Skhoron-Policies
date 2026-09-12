@@ -1,0 +1,10 @@
+/target
+**/*.rs.bk
+*.pdb
+.env
+.env.*
+.idea/
+.vscode/
+*.log
+# Cargo.lock is normally committed for applications/binaries and omitted
+# for libraries when appropriate. Decide per project; do not blindly ignore it.
