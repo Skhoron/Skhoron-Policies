@@ -1,4 +1,4 @@
-# Skhoron Policies
+.# Skhoron Policies
 
 Единый источник правил, шаблонов и процессов для проектов экосистемы Skhoron.
 
@@ -30,7 +30,16 @@
 | skhoron-notes | Apache 2.0 | решено |
 | Skhoron-Quark | Apache 2.0 | решено |
 | Skhoron-Sandbox | Apache 2.0 | решено |
-| Skhoron-Safeguard | Apache 2.0 | решено |
+| Skhoron-Safeguard | Apache 2.0 | решено | Skhoron-Karnel | GPLv2 | решено|
+| Skhoron-2FA | Apache 2.0 | решено |
+| Skhoron-Transport-Protocol | GPLv3 | решено |
+| Skhoron-SrcBox | BSD-3-CLAUSE | решено |
+| Skhoron-PwGen | BSD-3-CLAUSE | решено |
+| Pget | MIT | решено |
+| Skhoron-Maps | MPL 2.0 | решено |
+| Skhoron-Chitin | Apache 2.0 | решено|
+| Skhoron-Marrix | AGPLv3 | решено |
+
 
 Таблица отражает состояние на момент последнего обновления этого файла и должна вестись вручную. Если в будущем проект получит другую лицензию (или лицензия будет выбрана впервые), его запись в этой таблице должна быть обновлена.
 
