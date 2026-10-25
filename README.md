@@ -1,74 +1,62 @@
-.# Skhoron Policies
+# Skhoron Policies
 
-Единый источник правил, шаблонов и процессов для проектов экосистемы Skhoron.
+A single source of rules, templates, and processes for projects in the Skhoron ecosystem.
 
-> **Важно:** этот репозиторий является организационным источником шаблонов и правил. Он не заменяет юридические тексты, которые должны находиться в корне соответствующего проекта. Для конкретного проекта действуют его собственные `LICENSE`, `SECURITY.md`, `CONTRIBUTING.md` и другие опубликованные документы.
+Important: this repository is an organizational source of templates and rules. It does not replace legal texts that must be located in the root of the relevant project. Each specific project is governed by its own LICENSE, SECURITY.md, CONTRIBUTING.md, and other published documents.
 
-## Структура
+Structure
+Root
+CODE_OF_CONDUCT.md — rules of conduct for contributors.
+CLA.md — the historical filename for the DCO policy; in fact, the document describes the Developer Certificate of Origin.
+FUNDING.yml — an example GitHub Sponsors configuration.
+TEMPLATE/ — document templates for new projects. Currently, the collection contains only LICENSE.template.md (Apache-2.0); for projects with a different license (MIT, AGPL-3.0, MPL-2.0, etc.), use the official license text from its source.
+Project directories
+The skhoron-<name>/ directories contain decisions and open issues related to a specific project. These notes do not replace the project's legal documents.
 
-### Корень
-- `CODE_OF_CONDUCT.md` — правила поведения участников.
-- `CLA.md` — историческое имя файла для политики DCO; фактически документ описывает Developer Certificate of Origin.
-- `FUNDING.yml` — пример конфигурации GitHub Sponsors.
-- `TEMPLATE/` — шаблоны документов для новых проектов. Сейчас в комплекте есть только `LICENSE.template.md` (Apache-2.0); для проектов с другой лицензией (MIT, AGPL-3.0, MPL-2.0 и т.д.) берите официальный текст лицензии из её источника.
+Licenses
+A license is selected separately for each project. It must not be assumed that all Skhoron projects automatically use the same license.
 
-### Папки проектов
-В `skhoron-<name>/` находятся решения и открытые вопросы, относящиеся к конкретному проекту. Эти заметки не заменяют юридические документы проекта.
+Project	License	Status
+Skhoron-Files (Skhoron-Fails)	Apache-2.0	decided
+About-me	AGPL-3.0	decided
+Skhoron-VPF	MIT	decided
+Skhoron-Vault	Apache 2.0	decided
+Skhoron-Passgen	Apache 2.0	decided
+Skhoron-Acro	GPL	decided
+skhoron-notes	Apache 2.0	decided
+Skhoron-Quark	Apache 2.0	decided
+Skhoron-Sandbox	Apache 2.0	decided
+Skhoron-Safeguard	Apache 2.0	decided
+Skhoron-2FA	Apache 2.0	decided
+Skhoron-Transport-Protocol	GPLv3	decided
+Skhoron-SrcBox	BSD-3-CLAUSE	decided
+Skhoron-PwGen	BSD-3-CLAUSE	decided
+Pget	MIT	decided
+Skhoron-Maps	MPL 2.0	decided
+Skhoron-Chitin	Apache 2.0	decided
+Skhoron-Matrix	AGPLv3	decided
+Policies	No License	decided
+The table reflects the state of affairs as of the last update to this file and must be maintained manually. If a project receives a different license in the future (or a license is selected for the first time), its entry in this table must be updated.
 
-## Лицензии
+Changing the license
+The author/copyright holder may change the license for future versions if they have the necessary rights to do so. Such a change does not, by itself, revoke rights that have already been granted to users under previously published versions.
 
-Лицензия выбирается **для каждого проекта отдельно**. Нельзя считать, что все проекты Skhoron автоматически используют одну и ту же лицензию.
+This does not mean that an author can unilaterally change the license for code whose copyright they do not own.
 
-| Проект | Лицензия | Статус |
-|---|---|---|
-| Skhoron-Files (Skhoron-Fails) | Apache-2.0 | решено |
-| About-me | AGPL-3.0 | решено |
-| Skhoron-VPF | MIT | решено |
-| Skhoron-Vault | Apache 2.0 | решено |
-| Skhoron-Passgen | Apache 2.0 | решено |
-| Skhoron-Acro | GPL | решено |
-| skhoron-notes | Apache 2.0 | решено |
-| Skhoron-Quark | Apache 2.0 | решено |
-| Skhoron-Sandbox | Apache 2.0 | решено |
-| Skhoron-Safeguard | Apache 2.0 | решено | Skhoron-Karnel | GPLv2 | решено|
-| Skhoron-2FA | Apache 2.0 | решено |
-| Skhoron-Transport-Protocol | GPLv3 | решено |
-| Skhoron-SrcBox | BSD-3-CLAUSE | решено |
-| Skhoron-PwGen | BSD-3-CLAUSE | решено |
-| Pget | MIT | решено |
-| Skhoron-Maps | MPL 2.0 | решено |
-| Skhoron-Chitin | Apache 2.0 | решено|
-| Skhoron-Matrix | AGPLv3 | решено |
-| Policies | No License | решено |
+Forks and branding
+Forking, modifying, and distributing are permitted within the terms of the specific project's license.
 
+Rights to code and rights to trademarks/names are different things. Permission to use the code does not automatically grant permission to use the Skhoron name or logo in a way that creates the impression of an official project.
 
-Таблица отражает состояние на момент последнего обновления этого файла и должна вестись вручную. Если в будущем проект получит другую лицензию (или лицензия будет выбрана впервые), его запись в этой таблице должна быть обновлена.
+Before publishing
+A project must not contain unfilled legal or contact placeholders. The minimum checklist:
 
-## Изменение лицензии
-
-Автор/правообладатель может изменить лицензию **для будущих версий**, если имеет на это необходимые права. Такое изменение само по себе не отзывает права, которые уже были предоставлены пользователям по ранее опубликованным версиям.
-
-Это не означает, что автор может в одностороннем порядке изменить лицензию на код, авторские права на который ему не принадлежат.
-
-## Форки и бренд
-
-Форки, изменения и распространение разрешены в пределах лицензии конкретного проекта.
-
-Права на код и права на товарные знаки/названия — разные вещи. Разрешение на использование кода не означает автоматического разрешения использовать название или логотип Skhoron так, чтобы создавать впечатление официального проекта.
-
-
-## Перед публикацией
-
-В проекте не должны оставаться незаполненные юридические или контактные placeholders. Минимальная проверка:
-
-- `LICENSE` содержит выбранную лицензию полностью;
-- `README` указывает ту же лицензию;
-- `CONTRIBUTING.md` соответствует DCO;
-- `CODE_OF_CONDUCT.md` содержит реальный способ связи;
-- `SECURITY.md` содержит рабочий security-контакт или включённый GitHub Security Advisories;
-- ссылки ведут на существующие страницы;
-- версия и дата документов актуальны.
-
-## Правило при расхождении
-
-Для условий лицензирования конкретной версии кода первичным документом является `LICENSE`, распространяемый вместе с этой версией. Этот репозиторий не может сам по себе изменить условия уже опубликованной версии.
+LICENSE contains the complete text of the selected license;
+README specifies the same license;
+CONTRIBUTING.md is consistent with the DCO;
+CODE_OF_CONDUCT.md contains a real means of contact;
+SECURITY.md contains a working security contact or enabled GitHub Security Advisories;
+links lead to existing pages;
+document versions and dates are current.
+Rule in case of discrepancies
+For the licensing terms of a specific version of the code, the primary document is the LICENSE distributed with that version. This repository cannot, by itself, change the terms of an already published version.
