@@ -1,4 +1,4 @@
-.# Skhoron Policies
+# Skhoron Policies
 
 A single source of rules, templates, and processes for projects in the Skhoron ecosystem.
 
